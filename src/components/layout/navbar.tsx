@@ -1,9 +1,9 @@
 const Navbar = () => {
   return (
-    <nav className="w-full fixed z-50">
+    <nav className="w-full h-16 bg-gray-200">
       Navbar
     </nav>
   )
 }
 
-export default Navbar
+export default Navbar;

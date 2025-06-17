@@ -13,11 +13,19 @@ const Navbar = ({ title = "Upload Asset" }: NavbarProps) => {
       <div className="flex-grow text-center">
         <h2 className="text-2xl font-bold">{title}</h2>
       </div>
-      <div className="flex items-center space-x-4">
-        <FiBell className="text-xl cursor-pointer" />
-        <FiEdit className="text-xl cursor-pointer" />
-        <FiCreditCard className="text-xl cursor-pointer" />
-        <FiMenu className="text-xl cursor-pointer" />
+      <div className="flex items-center space-x-6">
+        <button className="text-xl text-gray-700 hover:text-gray-900">
+          <FiBell />
+        </button>
+        <button className="text-xl text-gray-700 hover:text-gray-900">
+          <FiEdit />
+        </button>
+        <button className="text-xl text-gray-700 hover:text-gray-900">
+          <FiCreditCard />
+        </button>
+        <button className="text-xl text-gray-700 hover:text-gray-900">
+          <FiMenu />
+        </button>
       </div>
     </nav>
   )

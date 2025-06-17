@@ -6,7 +6,7 @@ const mockCollections: Collection[] = [
   {
     id: '1',
     title: 'Citadel Hub',
-    imageUrl: '/collection1.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1558244661-d248897f7bc4?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Osasere Hitler',
       id: 'osasere1'
@@ -15,7 +15,7 @@ const mockCollections: Collection[] = [
   {
     id: '2',
     title: 'Citadel Hub',
-    imageUrl: '/collection2.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1633957897986-70e83293f3ff?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Osasere Hitler',
       id: 'osasere1'
@@ -24,7 +24,7 @@ const mockCollections: Collection[] = [
   {
     id: '3',
     title: 'Citadel Hub',
-    imageUrl: '/collection3.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Osasere Hitler',
       id: 'osasere1'
@@ -33,7 +33,7 @@ const mockCollections: Collection[] = [
   {
     id: '4',
     title: 'Citadel Hub',
-    imageUrl: '/collection4.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Osasere Hitler',
       id: 'osasere1'

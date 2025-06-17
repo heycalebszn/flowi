@@ -6,7 +6,7 @@ const mockAssets: Asset[] = [
   {
     id: '1',
     title: 'Tiger Robot',
-    imageUrl: '/tiger-robot.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Uche Okoro',
       id: 'uche1'
@@ -16,7 +16,7 @@ const mockAssets: Asset[] = [
   {
     id: '2',
     title: 'Ai Girlie',
-    imageUrl: '/ai-girlie.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1633957897986-70e83293f3ff?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Anna Chay',
       id: 'anna1'
@@ -26,7 +26,7 @@ const mockAssets: Asset[] = [
   {
     id: '3',
     title: 'Electrobott',
-    imageUrl: '/electrobott.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=1000&auto=format&fit=crop',
     creator: {
       name: 'Johnson Clay',
       id: 'johnson1'

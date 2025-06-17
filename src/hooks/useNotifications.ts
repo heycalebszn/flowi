@@ -9,7 +9,7 @@ const mockNotifications: Notification[] = [
         date: '2 Days Ago',
         user: {
             name: 'Samantha',
-            avatar: '/avatar1.jpg'
+            avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop'
         },
         otherUsers: 1
     },
@@ -19,11 +19,11 @@ const mockNotifications: Notification[] = [
         date: '2 Days Ago',
         user: {
             name: 'Aisha Yemi',
-            avatar: '/avatar2.jpg'
+            avatar: 'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=1000&auto=format&fit=crop'
         },
         asset: {
             name: 'video',
-            image: '/tiger-robot.jpg'
+            image: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop'
         }
     },
     {
@@ -32,7 +32,7 @@ const mockNotifications: Notification[] = [
         date: '2 Days Ago',
         user: {
             name: 'Samantha',
-            avatar: '/avatar1.jpg'
+            avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop'
         },
         otherUsers: 1
     },
@@ -42,11 +42,11 @@ const mockNotifications: Notification[] = [
         date: '2 Days Ago',
         user: {
             name: 'Aisha Yemi',
-            avatar: '/avatar2.jpg'
+            avatar: 'https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=1000&auto=format&fit=crop'
         },
         asset: {
             name: 'video',
-            image: '/tiger-robot.jpg'
+            image: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop'
         }
     }
 ];

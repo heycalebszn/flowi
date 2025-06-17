@@ -6,22 +6,22 @@ const mockVideoStyles: VideoStyle[] = [
     {
         id: 'cartoon',
         name: 'Cartoon',
-        image: '/cartoon-style.jpg'
+        image: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=1000&auto=format&fit=crop'
     },
     {
         id: 'realistic',
         name: 'Realistic',
-        image: '/realistic-style.jpg'
+        image: 'https://images.unsplash.com/photo-1529619768328-e37af76c6fe5?q=80&w=1000&auto=format&fit=crop'
     },
     {
         id: '3d',
         name: '3D',
-        image: '/tiger-robot.jpg'
+        image: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop'
     },
     {
         id: 'paranormal',
         name: 'Paranormal',
-        image: '/paranormal-style.jpg'
+        image: 'https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?q=80&w=1000&auto=format&fit=crop'
     }
 ];
 
@@ -31,7 +31,7 @@ export const useVideoGenerator = () => {
         prompt: '',
         aspectRatio: '',
         isGenerating: false,
-        generatedVideoUrl: '/collection3.jpg'
+        generatedVideoUrl: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop'
     });
     
     const [error, setError] = useState<string | null>(null);
@@ -77,7 +77,7 @@ export const useVideoGenerator = () => {
             setState(prev => ({
                 ...prev,
                 isGenerating: false,
-                generatedVideoUrl: '/collection3.jpg'
+                generatedVideoUrl: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop'
             }));
             
             setError(null);

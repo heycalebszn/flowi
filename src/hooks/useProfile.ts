@@ -6,8 +6,8 @@ const mockProfile: Profile = {
     id: '1',
     name: "Adrian's Concepts",
     username: 'Adrian_Creates',
-    bannerImage: '/collection3.jpg',
-    profileImage: '/avatar.jpg',
+    bannerImage: 'https://images.unsplash.com/photo-1680983914080-d3d21f9cbee8?q=80&w=1000&auto=format&fit=crop',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=format&fit=crop',
     stats: {
         followers: 10000,
         works: 100,
